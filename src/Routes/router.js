@@ -1,9 +1,9 @@
 import { createBrowserRouter } from 'react-router-dom'
 import Main from '../Layouts/Main'
-import Course from '../Pages/Course/Course'
 import Home from '../Pages/Home/Home'
 import Login from '../Pages/Authentication/Login'
 import Register from '../Pages/Authentication/Register'
+import MileStonesPage from '../Pages/MileStone/MileStonesPage'
 const router = createBrowserRouter([
     {
         path: '/',
@@ -23,7 +23,7 @@ const router = createBrowserRouter([
             },
             {
                 path: '/milestones',
-                element: <Course></Course>
+                element: <MileStonesPage></MileStonesPage>
             },
 
         ]
